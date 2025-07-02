@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--  -->
+
+    <section>
+      <nav>
+        <ion-icon name="settings" class="text"></ion-icon>
+        <ion-icon name="reload" class="text"></ion-icon>
+      </nav>
+      <main>
+        <ion-icon name="remove" class="btns text"></ion-icon>
+        <h1 class="text">0</h1>
+        <ion-icon name="add-outline" class="btns text"></ion-icon>
+      </main>
+      <footer>
+        <div class="left text">20</div>
+        <div class="status text">available</div>
+      </footer>
+    </section>
+
+    <!--  -->
+
+    <section class="flex">
+      <ion-icon name="add" class="text"></ion-icon>
+      <div class="count-box">
+        <div class="text">Set count = &nbsp;</div>
+        <input type="number" class="count" value="0" />
+      </div>
+      <div class="limits-box">
+        <div class="limit-1-box">
+          <div class="text">
+            Limits <span id="off">Off</span> / <span id="selected">On</span>
+          </div>
+          <div class="toggle"><div class="circle"></div></div>
+        </div>
+        <div class="limit-1-box" id="limit-show">
+          <div class="text">Maximum = &nbsp;</div>
+          <input type="number" class="count" value="20" />
+        </div>
+      </div>
+      <div class="colors-box">
+        <div class="color" id="black"></div>
+        <div class="color" id="white"></div>
+        <div class="color" id="pink"></div>
+        <div class="color" id="lightP"></div>
+        <!--  -->
+        <div class="color" id="purple"></div>
+        <div class="color" id="grey"></div>
+        <div class="color" id="aqua"></div>
+        <div class="color" id="lightGB"></div>
+        <!--  -->
+        <div class="color" id="violet"></div>
+        <div class="color" id="blue"></div>
+        <div class="color" id="aqua2"></div>
+        <div class="color" id="dark-voilet"></div>
+      </div>
+    </section>
+
+    <!--  -->
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="script.js"></script>
+</html>
