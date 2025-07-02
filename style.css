@@ -222,13 +222,17 @@ ion-icon[name="remove"] {
     font-size: 244px;
   }
   section {
-    padding:30px  22px;
+    padding: 30px 22px;
   }
   footer div:nth-child(1) {
     margin-bottom: 8px;
   }
   section:nth-child(2) ion-icon {
     right: 39%;
-    top: 50px;
+    top: 20px;
+  }
+  section {
+    justify-content: center;
+    gap: 40px;
   }
 }
